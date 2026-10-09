@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Secrets: never commit these
+.env
+.env.*
+
+# Terraform state can contain sensitive values
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# macOS
+.DS_Store
